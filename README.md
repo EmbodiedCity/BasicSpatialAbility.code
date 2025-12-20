@@ -1,8 +1,8 @@
 # BasicSpatialAbility.code
 [ACL'25] Code for the paper "Defining and Evaluating Visual Language Models’ Basic Spatial Abilities: A Perspective from Psychometrics"
-[![Project Website](https://img.shields.io/badge/Project-Website-blue)](https://ruarua.notion.site/Defining-and-Evaluating-Visual-Language-Models-Basic-Spatial-Abilities-A-Perspective-from-Psychome-23f7d637ee448004aed1f3220739c004)
-[![Dataset](https://img.shields.io/badge/%F0%9F%A4%97-Hugging%20Face-Dataset-yellow)](https://huggingface.co/datasets/EmbodiedCity/BasicSpatialAbility)
-
+[![Published Paper](https://img.shields.io/badge/Published-Paper-red)](https://ruarua.notion.site/Defining-and-Evaluating-Visual-Language-Models-Basic-Spatial-Abilities-A-Perspective-from-Psychome-23f7d637ee448004aed1f3220739c004)
+[![Dataset](https://img.shields.io/badge/Hugging_Face-Dataset-yellow?logo=huggingface)](https://huggingface.co/datasets/EmbodiedCity/BasicSpatialAbility)
+[![Code](https://img.shields.io/badge/Github-Code-blue?logo=github)](https://github.com/EmbodiedCity/BasicSpatialAbility.code)
 
 The Theory of Multiple Intelligences underscores the hierarchical nature of cognitive capabilities. To advance Spatial Artificial Intelligence, we pioneer a psychometric framework defining five Basic Spatial Abilities (BSAs) in Visual Language Models (VLMs): Spatial Perception, Spatial Relation, Spatial Orientation, Mental Rotation, and Spatial Visualization. Benchmarking 13 mainstream VLMs through nine validated psychometric experiments reveals significant gaps versus humans, with three key findings: 1) VLMs mirror human hierarchies (strongest in 2D orientation, weakest in 3D rotation) with independent BSAs; 2) Many smaller models surpass larger counterparts, with Qwen leading and InternVL2 lagging; 3) Interventions like CoT and few-shot training show limits from architectural constraints, while ToT demonstrates the most effective enhancement. Identified barriers include weak geometry encoding and missing dynamic simulation. By linking Psychometrics to VLMs, we provide a comprehensive BSA evaluation benchmark, a methodological perspective for embodied AI development, and a cognitive science-informed roadmap for achieving human-like spatial intelligence.
 
