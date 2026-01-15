@@ -1,5 +1,5 @@
 # [ACL'25 Main] Defining and Evaluating Visual Language Models’ Basic Spatial Abilities: A Perspective from Psychometrics
-[![Published Paper](https://img.shields.io/badge/Published-ACL_Paper-red)](https://aclanthology.org/2025.acl-long.567/)
+[![Published Paper](https://img.shields.io/badge/Published-ACL_Main-red)](https://aclanthology.org/2025.acl-long.567/)
 [![Arxiv](https://img.shields.io/badge/arXiv-2502.11859-darkred?logo=arxiv)](https://arxiv.org/abs/2502.11859)
 [![Dataset](https://img.shields.io/badge/Hugging_Face-Dataset-yellow?logo=huggingface)](https://huggingface.co/datasets/EmbodiedCity/BasicSpatialAbility)
 [![Code](https://img.shields.io/badge/Github-Code-blue?logo=github)](https://github.com/EmbodiedCity/BasicSpatialAbility.code)
