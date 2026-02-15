@@ -6,14 +6,14 @@
 
 This dataset is a benchmark designed for evaluating Multimodal Large Language Models' Basic Spatial Abilities based on authentic Psychometric theories. It is structured specifically to support both **Zero-shot** and **Few-shot** evaluation protocols.
 
-# 📂 Dataset Structure (Important)
+## 📂 Dataset Structure (Important)
 The dataset is organized into two distinct splits. **Please read this carefully to ensure valid evaluation results.**
 | Split Name | Role | Description |
 | :--- | :--- | :--- |
 | **`test`** | **Query Set** | Contains the actual benchmark questions (images & queries) to be evaluated. <br>⚠️ **Evaluation Only.** Do not use for training or as few-shot examples. |
 | **`validation`** | **Support Set** | Contains high-quality examples intended to be used as **Few-shot Prompts (In-Context Learning)**. <br>These samples should be prepended to the test queries to demonstrate the task to the model. |
 
-# ⚙️ Usage & Evaluation Protocol
+## ⚙️ Usage & Evaluation Protocol
 You can load the dataset using the Hugging Face `datasets` library.
 
 ### 1. Zero-Shot Evaluation
@@ -59,7 +59,7 @@ for sample in test_set:
     # Model inference...
 ```
 
-# 🔬 Underlying Theory
+## 🔬 Underlying Theory
 The Theory of Multiple Intelligences underscores the hierarchical nature of cognitive capabilities. To advance Spatial Artificial Intelligence, we pioneer a psychometric framework defining five Basic Spatial Abilities (BSAs) in Visual Language Models (VLMs): Spatial Perception, Spatial Relation, Spatial Orientation, Mental Rotation, and Spatial Visualization. Benchmarking 13 mainstream VLMs through nine validated psychometric experiments reveals significant gaps versus humans, with three key findings: 1) VLMs mirror human hierarchies (strongest in 2D orientation, weakest in 3D rotation) with independent BSAs; 2) Many smaller models surpass larger counterparts, with Qwen leading and InternVL2 lagging; 3) Interventions like CoT and few-shot training show limits from architectural constraints, while ToT demonstrates the most effective enhancement. Identified barriers include weak geometry encoding and missing dynamic simulation. By linking Psychometrics to VLMs, we provide a comprehensive BSA evaluation benchmark, a methodological perspective for embodied AI development, and a cognitive science-informed roadmap for achieving human-like spatial intelligence.
 |          Type          |                                                       Definition                                                      |          Tests          |
 |:----------------------:|:---------------------------------------------------------------------------------------------------------------------:|:-----------------------:|
@@ -77,7 +77,7 @@ The Theory of Multiple Intelligences underscores the hierarchical nature of cogn
   The Framework of Basic Spatial Abilities (Image sources are cited in the paper)
 </p>
 
-# Citation
+## Citation
 If you use this project in your research, please cite the following paper:
 ```bibtex
 @inproceedings{xu-etal-2025-defining,
