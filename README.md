@@ -5,7 +5,8 @@
 [![Code](https://img.shields.io/badge/Github-Code-blue?logo=github)](https://github.com/EmbodiedCity/BasicSpatialAbility.code)
 
 > [!IMPORTANT]
-> **✌You can directly load the dataset "EmbodiedCity/BasicSpatialAbility" using the Hugging Face `datasets` library!**
+> **You can directly load the dataset "EmbodiedCity/BasicSpatialAbility" using the Hugging Face `datasets` library!**
+
 This dataset is a benchmark designed for evaluating Multimodal Large Language Models' Basic Spatial Abilities based on authentic Psychometric theories. It is structured specifically to support both **Zero-shot** and **Few-shot** evaluation protocols.
 
 ## 📂 Dataset Structure (Important)
